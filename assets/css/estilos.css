@@ -968,7 +968,7 @@ input.button-noticias:focus {
 /* Correcciones  */
 
 @media screen and (min-width: 426px){
-    h4{
+    h4 {
       font-size: 1.7rem!important;
     }
   }
