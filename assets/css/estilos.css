@@ -200,12 +200,18 @@ header {
   letter-spacing: 0.5px;
   font-family: Montserrat;
 }
-.section-nosotros{
+.bg-nosotros {
+  position: absolute;
   background-image: url(../img/nosotros/fondo-playa.png);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  opacity: .8;
+  top: 0;
+  left: 0;
+  margin-top: 0;
 }
 .pf-nosotros{
   font-size: 15px;
@@ -282,7 +288,7 @@ header {
 }
 [class^="ndc-"], [class*=" ndc-"] {
   font-weight: 800;
-  /* font-size: 60px; */
+  font-size: 32px;
   font-family: Montserrat;
   text-transform: uppercase;
   margin: 0;
@@ -826,11 +832,11 @@ h3.ndc-vf::before {
   .after-line::after {
       content: " ";
       width: 70%;
-      height: 10px;
+      height: 15px;
       background-size: 100%;
       background-repeat: no-repeat;
       right: -20px;
-      top: 5px;
+      top: 10px;
       position: absolute;
   }
   h3.ndc-b::after {
@@ -910,10 +916,9 @@ h3.ndc-vf::before {
     border-right: solid 2px #5ec6c5;
     transform: rotate(45deg);
   }
-  .section-nosotros{
+  .bg-nosotros {
     background-image: url(../img/nosotros/fondo-playa-movil.jpg);
     background-position: center 0px;
-    opacity: 0.8;
   }
   .w-100-xs{
     width: 100%;
