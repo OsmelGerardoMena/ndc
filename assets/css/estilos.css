@@ -782,30 +782,10 @@ h3.ndc-vf::before {
 }
 @media (max-width: 574px){
     .after-line::after{
-        background-size: 105%;
-        transform: rotate(180deg);
-        top: 9px;
-        content: " ";
-        width: 85%;
-        height: 10px;
-        background-repeat: no-repeat;
-        right: -20px;
-        position: absolute;
-        transform: rotate(180deg);
-    }
-    .after-line::before{
-        background-size: 105%;
+      display: none;
     }
     .after-line::before {
-        content: " ";
-        width: 20px;
-        height: 16px;
-        background-size: 1000% 100%;
-        background-repeat: no-repeat;
-        left: -22px;
-        top: 0px;
-        position: absolute;
-        background-position: right;
+      display: none;
     }
 }
 @media (min-width: 575px) and (max-width: 767px){
@@ -829,6 +809,10 @@ h3.ndc-vf::before {
     }
 }
 @media screen and (min-width: 768px){
+  .fondo-componente{
+    padding-left: 3.6rem!important;
+    padding-right: 3.6rem!important;
+  }
   .after-line::after {
       content: " ";
       width: 70%;
@@ -1005,4 +989,22 @@ input.button-noticias:focus {
   .titulo-carrusel{
     font-size: 1.5rem;
   }
+}
+
+/* Extra css Julio's */
+.folleto-enlace{
+  position: relative;
+  height: 100%;
+  float: right;
+}
+.link-folleto {
+    background-color: #fc305f;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    right: 0px;
+    bottom: 0px;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 5px;
 }
