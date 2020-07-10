@@ -810,6 +810,9 @@ h3.ndc-vf::before {
     }
 }
 @media screen and (min-width: 768px){
+  .version-mobile{
+    display: none!important;
+  }
   .fondo-componente{
     padding-left: 3.6rem!important;
     padding-right: 3.6rem!important;
@@ -838,6 +841,9 @@ h3.ndc-vf::before {
   display: none;
 }
 @media screen and (max-width: 767px){
+  .version-desktop{
+    display: none!important;
+  }
   .pd-menu{
     padding: 0;
   }
@@ -924,8 +930,11 @@ h3.ndc-vf::before {
     width: 100%;
   }
   .fondo-componente {
-      background-image: url(../img/componentes/marco-movil.png);
-      background-size: 100% 99.7%;
+    background-image: url(../img/componentes/mobile/componentes-movil-flechas.png);
+    background-size: 100% 88.5%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 0px 30px;
   }
   .main-toggle.v-2 {
     display: block;
@@ -1007,4 +1016,17 @@ input.button-noticias:focus {
     text-align: center;
     margin: 0px;
     padding: 10px 5px;
+}
+.loader{
+  float: left;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%,-50%);
+}
+.fondo-planeta {
+    background-image: url(../img/home/planeta.png);
+    background-repeat: no-repeat;
+    background-position: 70% 40px;
+    background-size: 140px;
 }

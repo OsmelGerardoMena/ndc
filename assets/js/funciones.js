@@ -87,3 +87,10 @@ $( window ).resize(function() {
     $(".carousel-banner-donantes img").css("height",altura);
   }
 });
+function cargarCarrusel(){
+  setTimeout(function(){
+    $(".loader").addClass("d-none");
+    $(".carousel-banner-donantes img").removeClass("d-none");
+  },500);
+}
+$(window).on("load", cargarCarrusel);
