@@ -395,6 +395,10 @@ input.bt-video {
 a:link{
   text-decoration: none;
 }
+.medidas-not{
+  height: 50px;
+  margin-bottom: 20px;
+}
 .card-text {
   font-weight: 700;
   line-height: 1.2;
@@ -403,14 +407,11 @@ a:link{
   color: #000;
   display: block;
   display: -webkit-box;
-  height: 50px;
+  max-height: 50px;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  display: flex;
-  align-items: flex-end;
-  margin: 0px 0px 20px 0px;
 }
 .image-noticia {
     width: 100%;
@@ -913,7 +914,7 @@ h3.ndc-vf::before {
   }
   img.img-redes {
     max-height: 20px;
-    padding-right: 40px;
+    padding-right: 20px;
     padding-left: 0;
   }
   .ml-xs-0 {
@@ -994,7 +995,6 @@ input.button-noticias:focus {
 /* Extra css Julio's */
 .folleto-enlace{
   position: relative;
-  height: 100%;
   float: right;
 }
 .link-folleto {
