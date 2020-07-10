@@ -936,6 +936,9 @@ h3.ndc-vf::before {
     background-repeat: no-repeat;
     padding: 0px 30px;
   }
+  .fondo-componente.en {
+    background-image: url(../img/componentes/mobile/flechas-componentes-en.png);
+  }
   .main-toggle.v-2 {
     display: block;
     top: 20px!important;
